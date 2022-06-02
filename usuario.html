@@ -7,6 +7,7 @@
     <meta http-equiv="refresh" content="2" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <title>Must Clothes</title>
 </head>
@@ -15,7 +16,8 @@
         <nav>
             <section class="sectionNav">
                 <div class="hombreMujer">
-                    <a href="index.html" id="MustClothes">Must Clothes</a>
+                    <a href="index.html" id="MustClothes" data-aos="fade-right"
+                    data-aos-easing="linear">Must Clothes</a>
                     <a class="hombre" href="hombre.html">Hombre</a>
                     |
                     <a class="mujer" href="mujer.html">Mujer</a>
@@ -66,5 +68,9 @@
             </div>
         </section>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>
